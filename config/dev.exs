@@ -48,9 +48,9 @@ config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
 config :rotten_potato, RottenPotato.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  adapter: Ecto.Adapters.MySQL,
+  username: "root",
+  password: "apple123$",
   database: "rotten_potato_dev",
   hostname: "localhost",
   pool_size: 10
